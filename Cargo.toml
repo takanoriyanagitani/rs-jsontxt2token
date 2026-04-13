@@ -3,7 +3,16 @@ name = "rs-jsontxt2token"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the jsonl to tokens."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-jsontxt2token"
+homepage = "https://github.com/takanoriyanagitani/rs-jsontxt2token"
+documentation = "https://docs.rs/rs-jsontxt2token/latest"
+keywords = ["tokenize", "helper", "japanese", "jsonl", "json"]
+
 exclude = [
+    "rs-jsontxt2token.wasm",
+    "opt.wasm",
 ]
 
 [lints.rust]
